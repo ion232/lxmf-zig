@@ -1,0 +1,19 @@
+.{
+    .name = .lxmf,
+    .version = "0.1.0",
+    .fingerprint = 0x7ed47fc8a210322c, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.1",
+    .dependencies = .{
+        .reticulum = .{
+            .url = "git+https://github.com/ion232/reticulum-zig.git#eee896166004abc21daf35194285e7cd7dcbc1bd",
+            .hash = "reticulum-0.2.0-Q-evG8-4AQBZh9N1ob_IsUmqgx8_2vG1HcvlusjPu9_m",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
